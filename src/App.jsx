@@ -2,7 +2,6 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Music from './components/Music';
 import Events from './components/Events';
-import Gallery from './components/Gallery';
 
 function App() {
   return (
@@ -13,7 +12,6 @@ function App() {
       <Hero />
       <About />
       <Music />
-      <Gallery />
       <Events />
 
       <footer className="relative z-10 border-t border-white/10 px-6 py-10 text-center text-xs text-white/60">
