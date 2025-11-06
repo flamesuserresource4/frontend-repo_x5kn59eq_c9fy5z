@@ -23,16 +23,26 @@ export default function Music() {
             </a>
           </div>
         </div>
-        {/* SoundCloud Embed */}
+        {/* SoundCloud Embed - Mew Fang profile */}
         <div className="rounded-xl border border-white/10 bg-white/5 p-4 backdrop-blur-md">
           <iframe
-            title="SoundCloud Player"
+            title="SoundCloud: Mew Fang"
             className="h-[380px] w-full rounded-lg"
             scrolling="no"
             frameBorder="no"
             allow="autoplay"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/209262931&color=%236b21a8&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+            src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/mew_music&color=%236b21a8&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
           />
+          <div className="mt-3 text-center">
+            <a
+              href="https://soundcloud.com/mew_music"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center justify-center rounded-md bg-gradient-to-r from-orange-500 to-pink-600 px-4 py-2 text-sm font-medium text-white shadow hover:from-orange-400 hover:to-pink-500 focus:outline-none focus:ring-2 focus:ring-orange-400/50"
+            >
+              Open on SoundCloud
+            </a>
+          </div>
         </div>
       </div>
     </section>
